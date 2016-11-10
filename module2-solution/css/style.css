@@ -1,0 +1,93 @@
+body {
+    font-family: "Century Gothic", "Curier New";
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: bold;
+    margin: 30px 0 20px 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    padding: 0 0 0 10px ;
+}
+.sectiontitle {
+    font-size: 1.25em;
+}
+
+.sectionitem {
+    position: relative;
+    float: left;
+    border: 2px solid;
+    margin: 10px 10px 10px 10px;
+    background-color: #999999;
+    padding: 40px 15px 10px 15px;
+}
+
+.sectiontitle {
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    height: 35px;
+    padding: 5px
+}
+
+.sectiontext {
+    
+}
+
+#title1 {
+    background-color: #D59898;
+}
+#title2 {
+    background-color: #C14543;
+}
+#title3 {
+    background-color: #E5D198;
+}
+
+@media (min-width: 992px) {
+    .column1, .column4 {
+        float: left;
+    }
+    .column1, .column4 {
+        width: 33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .column1, .column4 {
+        float: left;
+    }
+    .column1 {
+        width: 100%;
+    }
+    .column4 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .column1, .column4 {
+        float: left;
+    }
+    .column1, .column4 {
+        width: 100%;
+    }
+}
