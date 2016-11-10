@@ -19,7 +19,7 @@ header {
 
 .row {
     width: 100%;
-    padding: 0 0 0 10px ;
+    padding: 0 10px 0 10px ;
 }
 .sectiontitle {
     font-size: 1.25em;
