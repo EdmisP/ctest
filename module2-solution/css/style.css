@@ -28,15 +28,15 @@ header {
 .sectionitem {
     position: relative;
     float: left;
-    border: 2px solid;
+    border: 1px solid;
     margin: 10px 10px 10px 10px;
     background-color: #999999;
     padding: 40px 15px 10px 15px;
 }
 
 .sectiontitle {
-    border-bottom: 2px solid;
-    border-left: 2px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
     position: absolute;
     right: 0px;
     top: 0px;
