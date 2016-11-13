@@ -60,6 +60,7 @@ li a{
 /* Section */
 h2 {
     font-weight: bold;
+    padding-bottom: 40px;
 }
 #main-content {
     margin: 30px;
