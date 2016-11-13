@@ -1,0 +1,87 @@
+body {
+    font-size: 16px;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+    border: 0;
+}
+
+#header-nav > .container-fluid {
+    background-color: #888888;
+    border-bottom: 1px solid #000000;
+}
+.navbar-brand {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 54px;
+}
+.navbar-brand h1 { /*Restaurant name*/
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+/* Header end */
+
+/* Nav menu */
+#nav-list {
+    margin-top: 0px;
+    background: #dddddd;
+    /*border: 1px solid;*/
+}
+#nav-list a {
+    color: #000000;
+}
+
+li a{
+    list-style-position:inside;
+    border: 1px solid #000000;
+}
+/* Nav menu end */
+
+/* Button */
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:hover span {
+    /*background-color: #555555;*/
+    border: 1px solid #dddddd
+}
+/* Button end */
+
+/* Section */
+h2 {
+    font-weight: bold;
+}
+#main-content {
+    margin: 30px;
+}
+.menu-item {
+    min-height: 1000px;
+    background-color: #dddddd;
+    margin-bottom: 30px;
+}
+
+.menu-item h3 {
+    text-align: center;
+}
+/* Section end*/
+
+
+
+
+
+/* MEDIA MOBILE*/
+@media (max-width: 767px) {
+    .navbar-brand {
+        padding-bottom: 0px;
+    }
+}
